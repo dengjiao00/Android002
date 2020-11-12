@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/back_new"
+        android:title="返回"
+
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/save_new"
+        android:title="保存"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/delete_new"
+        android:title="删除"
+        app:showAsAction="never"/>
+
+</menu>
